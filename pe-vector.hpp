@@ -1,8 +1,12 @@
-#include <iostream>
-
-template< class T >
-struct Vector {
-	T* data;
-	size_t size, capacity
-};
-int main()
+#ifndef PE_VECTOR_HPP
+#define PE_VECTOR_HPP
+#include <csttdef>
+namespace knk
+{
+	template< class T >
+	struct Vector {
+		T* data;
+		size_t size, capacity;
+	};
+}
+#endif
